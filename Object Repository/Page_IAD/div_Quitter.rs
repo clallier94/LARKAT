@@ -6,21 +6,25 @@
    <elementGuidId>3fb5be7e-e98f-43c0-ac17-01254c64576b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;enjoyhint enjoyhint-step-1&quot;]/div[@class=&quot;enjoyhint_skip_btn&quot;][count(. | //div[@class = 'enjoyhint_skip_btn' and (text() = 'Quitter' or . = 'Quitter')]) = count(//div[@class = 'enjoyhint_skip_btn' and (text() = 'Quitter' or . = 'Quitter')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Ne plus afficher cette fenêtre à la prochaine connexion'])[1]/following::div[11]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>Quitter</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

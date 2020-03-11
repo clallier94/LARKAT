@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Contact,Chrome 80.0.3987.132,,,2020-03-11 14:08:57,2020-03-11 14:10:35,"1m - 38,704s",PASSED
+,,,,,,,
+Test Cases/Create contact,Chrome 80.0.3987.132,,,2020-03-11 14:08:57,2020-03-11 14:10:35,"1m - 38,270s",PASSED
+"openBrowser("""")",Chrome 80.0.3987.132,,,2020-03-11 14:08:57,2020-03-11 14:09:05,"7,760s",PASSED
+"navigateToUrl(""https://preprod.iadholding.com/"")",Chrome 80.0.3987.132,,,2020-03-11 14:09:05,2020-03-11 14:09:06,"0,743s",PASSED
+"click(findTestObject(""Object Repository/Page_Welcome page/button_Accder""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:06,2020-03-11 14:09:08,"1,933s",PASSED
+"setText(findTestObject(""Object Repository/Page_IAD/input_Identifiant_username""), ""2020@iadfrance.fr"")",Chrome 80.0.3987.132,,,2020-03-11 14:09:08,2020-03-11 14:09:09,"0,716s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_IAD/input_Mot de passe_password""), ""M1qipU8GjAM="")",Chrome 80.0.3987.132,,,2020-03-11 14:09:09,2020-03-11 14:09:09,"0,647s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/input_Mot de passe_submit""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:09,2020-03-11 14:09:15,"6,180s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/button_Dmarrer""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:15,2020-03-11 14:09:19,"3,744s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/div_Quitter""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:19,2020-03-11 14:09:21,"1,341s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/a_Production""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:21,2020-03-11 14:09:21,"0,583s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/a_Myiad contacts""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:21,2020-03-11 14:09:23,"1,597s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/span_Crer""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:23,2020-03-11 14:09:34,"11,047s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/div_Nouveau contact_myiad-avatar""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:34,2020-03-11 14:09:35,"1,114s",PASSED
+"setText(findTestObject(""Object Repository/Page_IAD/input_Prnom_firstName""), ""RAJAA"")",Chrome 80.0.3987.132,,,2020-03-11 14:09:35,2020-03-11 14:09:36,"0,773s",PASSED
+"setText(findTestObject(""Object Repository/Page_IAD/input_Nom_lastName""), ""LARKAT"")",Chrome 80.0.3987.132,,,2020-03-11 14:09:36,2020-03-11 14:09:36,"0,653s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/span_Choisir""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:36,2020-03-11 14:09:38,"1,477s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/span_MACAO""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:38,2020-03-11 14:09:41,"2,925s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/div_Contact  Adresse""))",Chrome 80.0.3987.132,,,2020-03-11 14:09:41,2020-03-11 14:10:32,"51,211s",PASSED
+"setText(findTestObject(""Object Repository/Page_IAD/input_Tlphone_phone2""), ""06 45 85 45 87"")",Chrome 80.0.3987.132,,,2020-03-11 14:10:32,2020-03-11 14:10:34,"1,790s",PASSED
+"click(findTestObject(""Object Repository/Page_IAD/span_Enregistrer le contact""))",Chrome 80.0.3987.132,,,2020-03-11 14:10:34,2020-03-11 14:10:34,"0,710s",PASSED
+closeBrowser(),Chrome 80.0.3987.132,,,2020-03-11 14:10:34,2020-03-11 14:10:35,"0,776s",PASSED

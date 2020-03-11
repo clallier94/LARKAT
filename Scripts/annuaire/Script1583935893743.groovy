@@ -68,3 +68,5 @@ WebUI.click(findTestObject('Object Repository/Page_IAD/span_Enregistrer'))
 
 WebUI.click(findTestObject('Object Repository/Page_IAD/span_Confirmer'))
 
+WebUI.closeBrowser()
+
